@@ -1,0 +1,16 @@
+Appbar()
+
+=> title
+
+=> shape
+    -> RoundedRectangleBorder()
+    -> StadiumBorder()
+
+=> systemOverlayStyle
+    -> statusBarBrightness (for ios)
+    -> statusBarColor (for android)
+    -> statusBarIconBrightness (for android)
+    -> statusBarIconBrightness
+    -> systemNavigationBarColor
+    -> systemNavigationBarDividerColor
+    -> systemNavigationBarIconBrightness
