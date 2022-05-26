@@ -14,6 +14,8 @@ class AppBarApp extends StatelessWidget {
 
           //* centerTitle
           // centerTitle: true,
+          //* titleSpacing
+          // titleSpacing: 100.0,
 
           //* actions
           //* actionsIconTheme
@@ -38,7 +40,11 @@ class AppBarApp extends StatelessWidget {
           // ),
 
           //* leading
-          // leading: const IconButton(onPressed: null, icon: Icon(Icons.abc)),
+          //* leading width
+          // leading: IconButton(onPressed: () {}, icon: const Icon(Icons.cookie)),
+          // leadingWidth: 100.0,
+
+          // primary: ,
 
           //* automaticallyImplyLeading
           // automaticallyImplyLeading: false,
@@ -49,10 +55,17 @@ class AppBarApp extends StatelessWidget {
           //* backwardsCompatibility @deprecated
           // backwardsCompatibility: ,
 
+          //* primary
+          // primary: false,
+
+          //* scrolledUnderElevation
+          // scrolledUnderElevation: 4,
+
           //* bottom
           //* bottomOpacity
           // bottomOpacity: 0.5,
           // bottom: AppBar(
+          //   primary: true,
           //   actions: [
           //     IconButton(
           //       onPressed: () {},
@@ -87,8 +100,31 @@ class AppBarApp extends StatelessWidget {
 
           //* elevation.
           // elevation: 8.0,
+          //* shadowColor
+          // shadowColor: Colors.red,
 
-          excludeHeaderSemantics: true,
+          //*  surfaceTintColor
+          // surfaceTintColor: Colors.black,
+
+          //* excludeHeaderSemantics (Semantic -> Description / anotations about widgets in tree)
+          // excludeHeaderSemantics: true,
+
+          //* flexibleSpace
+          // flexibleSpace: Container(
+          //   decoration: const BoxDecoration(
+          //       gradient: LinearGradient(
+          //     colors: [
+          //       Colors.green,
+          //       Colors.orange,
+          //     ],
+          //   )),
+          // ),
+
+          //* foregroundColor
+          // foregroundColor: Colors.pink,
+
+          //* iconTheme
+          // iconTheme: const IconThemeData(color: Colors.red),
 
           //* brightness
           //* systemOverlayStyle
@@ -100,6 +136,23 @@ class AppBarApp extends StatelessWidget {
           //   systemNavigationBarDividerColor: Colors.red,
           //   systemNavigationBarIconBrightness: Brightness.light,
           // ),
+
+          //* titleTextStyle
+          // titleTextStyle: const TextStyle(
+          //   color: Colors.black,
+          //   fontSize: 24.0,
+          // ),
+
+          //* toolbarHeight
+          //* toolbarOpacity
+          //* toolbarTextStyle
+          // toolbarHeight: 100.0,
+          // toolbarOpacity: 1,
+          // toolbarTextStyle: const TextStyle(
+          //   color: Colors.black,
+          //   fontSize: 24.0,
+          // ),
+
           //* shape
           // shape: RoundedRectangleBorder(
           //   side: const BorderSide(color: Colors.red, width: 5.0),
