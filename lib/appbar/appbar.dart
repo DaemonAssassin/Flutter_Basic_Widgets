@@ -9,7 +9,9 @@ class AppBarApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
+        drawer: const Drawer(),
         appBar: AppBar(
+          primary: true,
           title: const Text('AppBar'),
 
           //* centerTitle
@@ -64,39 +66,39 @@ class AppBarApp extends StatelessWidget {
           //* bottom
           //* bottomOpacity
           // bottomOpacity: 0.5,
-          // bottom: AppBar(
-          //   primary: true,
-          //   actions: [
-          //     IconButton(
-          //       onPressed: () {},
-          //       icon: const Icon(
-          //         Icons.home,
-          //         color: Colors.black,
-          //       ),
-          //     ),
-          //     IconButton(
-          //       onPressed: () {},
-          //       icon: const Icon(
-          //         Icons.percent,
-          //         color: Colors.black,
-          //       ),
-          //     ),
-          //     IconButton(
-          //       onPressed: () {},
-          //       icon: const Icon(
-          //         Icons.people,
-          //         color: Colors.black,
-          //       ),
-          //     ),
-          //     IconButton(
-          //       onPressed: () {},
-          //       icon: const Icon(
-          //         Icons.car_crash,
-          //         color: Colors.black,
-          //       ),
-          //     ),
-          //   ],
-          // ),
+          bottom: AppBar(
+            primary: false,
+            actions: [
+              IconButton(
+                onPressed: () {},
+                icon: const Icon(
+                  Icons.home,
+                  color: Colors.black,
+                ),
+              ),
+              IconButton(
+                onPressed: () {},
+                icon: const Icon(
+                  Icons.percent,
+                  color: Colors.black,
+                ),
+              ),
+              IconButton(
+                onPressed: () {},
+                icon: const Icon(
+                  Icons.people,
+                  color: Colors.black,
+                ),
+              ),
+              IconButton(
+                onPressed: () {},
+                icon: const Icon(
+                  Icons.car_crash,
+                  color: Colors.black,
+                ),
+              ),
+            ],
+          ),
 
           //* elevation.
           // elevation: 8.0,
