@@ -6,10 +6,7 @@ void main(List<String> args) {
       home: Scaffold(
         body: Placeholder(
           color: Colors.pink,
-          child: SizedBox(
-            width: 200.0,
-            height: 200.0,
-          ),
+          child: Text('{lorem}'),
         ),
       ),
     ),
