@@ -56,9 +56,9 @@ flutter:
   uses-material-design: true
 
   # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - asset/images/apple.jpg
+    # - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
@@ -74,24 +74,24 @@ flutter:
   fonts:
     - family: JosefinSans
       fonts:
-        - asset: assets/fonts/JosefinSans-Bold.ttf
-        - asset: assets/fonts/JosefinSans-BoldItalic.ttf
-        - asset: assets/fonts/JosefinSans-ExtraLight.ttf
-        - asset: assets/fonts/JosefinSans-ExtraLightItalic.ttf
-        - asset: assets/fonts/JosefinSans-Italic.ttf
-        - asset: assets/fonts/JosefinSans-Light.ttf
-        - asset: assets/fonts/JosefinSans-LightItalic.ttf
-        - asset: assets/fonts/JosefinSans-Medium.ttf
-        - asset: assets/fonts/JosefinSans-MediumItalic.ttf
-        - asset: assets/fonts/JosefinSans-Regular.ttf
-        - asset: assets/fonts/JosefinSans-SemiBold.ttf
-        - asset: assets/fonts/JosefinSans-SemiBoldItalic.ttf
-        - asset: assets/fonts/JosefinSans-Thin.ttf
-        - asset: assets/fonts/JosefinSans-ThinItalic.ttf
+        - asset: asset/fonts/JosefinSans-Bold.ttf
+        - asset: asset/fonts/JosefinSans-BoldItalic.ttf
+        - asset: asset/fonts/JosefinSans-ExtraLight.ttf
+        - asset: asset/fonts/JosefinSans-ExtraLightItalic.ttf
+        - asset: asset/fonts/JosefinSans-Italic.ttf
+        - asset: asset/fonts/JosefinSans-Light.ttf
+        - asset: asset/fonts/JosefinSans-LightItalic.ttf
+        - asset: asset/fonts/JosefinSans-Medium.ttf
+        - asset: asset/fonts/JosefinSans-MediumItalic.ttf
+        - asset: asset/fonts/JosefinSans-Regular.ttf
+        - asset: asset/fonts/JosefinSans-SemiBold.ttf
+        - asset: asset/fonts/JosefinSans-SemiBoldItalic.ttf
+        - asset: asset/fonts/JosefinSans-Thin.ttf
+        - asset: asset/fonts/JosefinSans-ThinItalic.ttf
           style: normal
     - family: NotoBhaiJan
       fonts:
-        - asset: assets/fonts/Handlee-Regular.ttf
+        - asset: asset/fonts/Handlee-Regular.ttf
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
