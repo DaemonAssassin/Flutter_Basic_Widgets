@@ -31,7 +31,7 @@ class _CameraGalleryState extends State<CameraGallery> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                getImage(),
+                ClipOval(child: getImage()),
                 const SizedBox(height: 48.0),
                 getButton('Camera', () {
                   getImageFromFile(ImageSource.camera);
