@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/src/foundation/key.dart';
-import 'package:flutter/src/widgets/framework.dart';
 
 void main(List<String> args) {
   runApp(const SingleCSV());
@@ -14,22 +12,36 @@ class SingleCSV extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(),
-        body: SingleChildScrollView(
-          child: Column(
-            children: [
-              Container(
-                height: 200.0,
-                color: Colors.yellow,
-              ),
-              Container(
-                height: 200.0,
-                color: Colors.purple,
-              ),
-              Container(
-                height: 200.0,
-                color: Colors.blue,
-              ),
-            ],
+        body: Center(
+          child: SingleChildScrollView(
+            padding: const EdgeInsets.all(16.0),
+            scrollDirection: Axis.vertical,
+            // physics: const ScrollPhysics(),
+            // physics: const NeverScrollableScrollPhysics(),
+            // physics: const BouncingScrollPhysics(),
+            // physics: const ClampingScrollPhysics(),
+            // physics: const FixedExtentScrollPhysics(),
+            // physics: const PageScrollPhysics(),
+            physics: const RangeMaintainingScrollPhysics(),
+            reverse: false,
+            clipBehavior: Clip.none,
+
+            child: Column(
+              children: [
+                Container(color: Colors.orange, height: 400),
+                Container(color: Colors.blue, height: 400),
+                Container(color: Colors.green, height: 400),
+                Container(color: Colors.red, height: 400),
+                Container(color: Colors.orange, height: 400),
+                Container(color: Colors.blue, height: 400),
+                Container(color: Colors.green, height: 400),
+                Container(color: Colors.red, height: 400),
+                Container(color: Colors.orange, height: 400),
+                Container(color: Colors.blue, height: 400),
+                Container(color: Colors.green, height: 400),
+                Container(color: Colors.red, height: 400),
+              ],
+            ),
           ),
         ),
       ),

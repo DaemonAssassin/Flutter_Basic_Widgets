@@ -9,6 +9,12 @@
 .history
 .svn/
 migrate_working_dir/
+*.pub
+lib/pappu
+lib/pappu.pub
+keyys
+keyys.pub
+
 
 # IntelliJ related
 *.iml
